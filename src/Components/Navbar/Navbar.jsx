@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <>
     {/* navbar section start */}
-    <nav className='bg-primary py-[27px] sticky top-0'>
+    <nav className='bg-primary py-[27px] sticky top-0 z-[999]'>
         <Container>
             {/* nav wrapper start */}
             <div className='flex items-center'>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     
                 </ul>
                 <div>
-                    <Button><a href="#contact">CONTACT</a></Button>
+                    <Button className="hover:text-secondaryText duration-700 transition-all"><a href="#contact">CONTACT</a></Button>
                     </div>
             </div>
 

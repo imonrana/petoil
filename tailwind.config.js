@@ -13,15 +13,23 @@ export default {
         "primary": "#F40404",
         "secondary": "#282828",
         "primaryText":"#FFFFFF",
-        "secondaryText":"000000",
-        "infoText":"6C6C6C"
+        "secondaryText":"#000000",
+        "infoText":"#6C6C6C",
       },
       maxWidth:{
         container:"1144px"
       },
       backgroundImage:{
-        "banner": "url(src/assets/banner.png)"
+        "banner": "url(src/assets/banner.png)",
+        "servicesImgOne" : "url(src/assets/services_img_one.png)",
+        "servicesImgTwo" : "url(src/assets/services_img_two.png)",
+        "servicesImgThree" : "url(src/assets/services_img_three.png)",
+        "BlogImgOne" : "url(src/assets/Blog_img_One.png)",
+        "BlogImgTwo" : "url(src/assets/Blog_img_two.png)",
+        "BlogImgThree" : "url(src/assets/Blog_img_three.png)",
       }
+
+      
       
 
     },
