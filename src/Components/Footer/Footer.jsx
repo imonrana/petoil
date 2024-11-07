@@ -13,15 +13,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#1F1F1F]">
       <Container>
-        <div className="pt-[148px] pb-[170px] flex justify-between">
-          <div>
+        <div className=" gap-y-10 pt-10 pb-10 md:gap-y-0 md:pt-[148px] md:pb-[170px] flex   md:justify-between  flex-col md:flex-row">
+          <div className="mx-auto md:mx-0">
             <a href="#">
             <figure>
               <img src={footerLogo} alt="logo" />
             </figure>
             </a>
             {/* address start */}
-            <div className="space-y-[15px] my-[34px]">
+            <div className="space-y-[15px] my-[34px] ">
               <div className="text-primaryText flex items-center gap-x-[5px]">
                 <IoMailUnreadOutline className="text-xl" />
                 <p>mail@yourcompany.com</p>
@@ -57,7 +57,8 @@ const Footer = () => {
 
               {/* company part */}
 
-          <div className="">
+         <div className="flex justify-center md:justify-normal gap-x-20 md:gap-x-[122px]">
+         <div className="">
             <p className="font-poppins font-bold text-[16px] text-primaryText">Company</p>
             <ul className="font-poppins font-normal text-[14px] text-primaryText space-y-[15px] mt-[21px]">
                 <li>
@@ -92,10 +93,11 @@ const Footer = () => {
                 </li>
             </ul>
           </div>
+         </div>
 
-          <div>
-          <p className="font-poppins font-bold text-[16px] text-primaryText">Certificate</p>
-       <div className="flex gap-x-[5px] pt-[21px]">
+          <div className="flex md:block items-center gap-x-5 md:gap-x-0 px-5 md:px-0 justify-center md:justify-normal">
+          <p className="font-poppins font-bold text-[16px] text-primaryText ">Certificate</p>
+       <div className="flex justify-center md:justify-normal gap-x-[5px] md:pt-[21px]">
        <figure>
             <img src={cert1} alt="cert1" />
           </figure>
@@ -108,7 +110,7 @@ const Footer = () => {
       </Container>
       <div className="bg-[#282828] py-[42px]">
         <Container>
-            <p className="font-poppins font-medium text-base text-[#6C6C6C]">© Copyright 2022 by AltDesain Studio – All right reserved.</p>
+            <p className="font-poppins font-medium text-xs md:text-base text-[#6C6C6C] px-5 md:px-0 text-center md:text-left">© Copyright 2022 by AltDesain Studio – All right reserved.</p>
         </Container>
       </div>
     </footer>

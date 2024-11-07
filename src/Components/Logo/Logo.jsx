@@ -8,7 +8,7 @@ import Container from '../Container/Container'
 
 const Logo = () => {
   return (
-    <section className='py-[116px]'>
+    <section className='py-[20px] md:py-[116px]'>
      <Container>
      <div className='flex justify-between'>
        <figure>
