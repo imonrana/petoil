@@ -40,7 +40,7 @@ const handelToogle = ()=>{
             <div className=' mx-5 md:flex items-center'>
 
             {/* logo start */}
-            <div className='w-full md:w-1/5 flex justify-between  md:block'>
+            <div className='w-full md:w-1/6 lg:w-1/5 flex justify-between  md:block'>
              <a href="#logo"><img src={logo} alt="Logo" /></a>
              <button className='text-primaryText text-4xl  md:hidden'>
              <IoIosMenu onClick={handelToogle} />
@@ -49,17 +49,17 @@ const handelToogle = ()=>{
             {/*  logo end */}
 
             {/* nav links start */}
-            <div className={`${toggle ? "visible" : "hidden"}  transition-all duration-700 ease-in-out md:visible  ml-4 mt-3 md:ml-0 md:mt-0 md:flex gap-x-[72px] justify-end w-4/5`}>
-                <ul className='space-y-1 md:space-y-0 md:flex   items-center gap-x-[47px]'>
+            <div className={`${toggle ? "visible" : "hidden"}  transition-all duration-700 ease-in-out md:visible  ml-4 mt-3 md:ml-0 md:mt-0 md:flex gap-x-10 lg:gap-x-[72px] justify-end w-4/5`}>
+                <ul className='space-y-1 md:space-y-0 md:flex   items-center gap-x-7 lg:gap-x-[47px]'>
                     {
                         navItems.map((navLinks, href) =>(
-                            <li className='font-poppins font-semibold text-base text-primaryText hover:text-secondary transition-all duration-500  ' key={href}><a href={navLinks.href}>{navLinks.level}</a></li>
+                            <li className='font-poppins font-semibold text-sm lg:text-base text-primaryText hover:text-secondary transition-all duration-500  ' key={href}><a href={navLinks.href}>{navLinks.level}</a></li>
                         ))
                     }
                     
                 </ul>
                 <div>
-                    <Button className=" mt-3 md:mt-0 hover:text-secondaryText duration-700 transition-all"><a href="#contact">CONTACT</a></Button>
+                    <Button className=" mt-3 md:mt-0 hover:text-secondaryText duration-700 transition-all text-sm lg:text-base"><a href="#contact">CONTACT</a></Button>
                     </div>
             </div>
 

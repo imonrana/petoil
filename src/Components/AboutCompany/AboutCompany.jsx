@@ -7,11 +7,11 @@ import Button from '../Button/Button'
 
 function AboutCompany() {
   return (
-    <section className='bg-[#F0F0F0] py-[50px] md:py-[136px]'>
+    <section className='bg-[#F0F0F0]  py-[50px] lg:py-[136px]'>
        <Container>
        <div className='flex flex-col gap-y-2 md:gap-y-0 md:flex-row '>
-            <div className='py-5 md:py-[100px] pl-5 md:pl-[74px] md:pr-[77px]  bg-primary' >
-            <p className='font-poppins font-bold text-2xl md:text-[36px] text-primaryText md:w-[262px] '>Learn more about our company</p>
+            <div className='py-10 xl:py-[100px] pl-5 lg:pl-[74px] md:pr-[77px]  bg-primary' >
+            <p className='font-poppins font-bold text-2xl  md:text-3xl lg:text-4xl md:text-center  lg:text-left  text-primaryText lg:w-[262px] '>Learn more about our company</p>
             </div>
             <figure className='relative'>
                 <img src={aboutCompanyImg} alt="about_company_img"/>

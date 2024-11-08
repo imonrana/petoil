@@ -14,12 +14,12 @@ const Supplier = () => {
   return (
     <section>
       {/* Suplier heading text */}
-      <Container>
-      <div className="md:flex justify-between items-center font-poppins py-12 px-5 md:px-0 md:py-[78px]">
-        <div className="font-bold text-2xl md:text-5xl leading-7 md:leading-[72px] md:w-[289px] pb-4 md:pb-0">
+      <Container className= "lg:mx-5 xl:mx-auto">
+      <div className="md:flex justify-between items-center font-poppins py-12 px-5 lg:px-0 lg:py-[78px]">
+        <div className="font-bold text-2xl lg:text-5xl leading-7 lg:leading-[60px] xl:leading-[72px] lg:w-[289px] pb-4 lg:pb-0">
             The biggest supplier on the country
             </div>
-        <div className="font-medium text-sm md:text-base text-infoText md:w-[651px]">
+        <div className="font-medium text-sm lg:text-base text-infoText md:w-[500px] lg:w-[550px] xl:w-[651px]">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution.
@@ -30,7 +30,7 @@ const Supplier = () => {
 
       {/* gallary img start */}
 
-      <div className="flex flex-col md:justify-normal md:flex-row gap-y-5 md:gap-y-0 md:gap-x-[30px]">
+      <div className="flex flex-col md:justify-normal md:flex-row gap-y-5 md:pb-5 lg:gap-y-0 md:gap-x-[30px]">
         <figure className="w-[70%] mx-auto md:w-full">
           <img src= {gallaryImgOne} alt="gallary_img_one" />
         </figure>
