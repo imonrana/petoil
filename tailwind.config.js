@@ -20,13 +20,13 @@ export default {
         container:"1144px"
       },
       backgroundImage:{
-        "banner": "url(src/assets/banner.png)",
-        "servicesImgOne" : "url(src/assets/services_img_one.png)",
-        "servicesImgTwo" : "url(src/assets/services_img_two.png)",
-        "servicesImgThree" : "url(src/assets/services_img_three.png)",
-        "BlogImgOne" : "url(src/assets/Blog_img_One.png)",
-        "BlogImgTwo" : "url(src/assets/Blog_img_two.png)",
-        "BlogImgThree" : "url(src/assets/Blog_img_three.png)",
+        "banner": "url('/src/assets/banner.png')",
+        "servicesImgOne" : "url('/src/assets/services_img_one.png')",
+        "servicesImgTwo" : "url('/src/assets/services_img_two.png')",
+        "servicesImgThree" : "url('/src/assets/services_img_three.png')",
+        "BlogImgOne" : "url('/src/assets/Blog_img_one.png')",
+        "BlogImgTwo" : "url('/src/assets/Blog_img_two.png')",
+        "BlogImgThree" : "url('/src/assets/Blog_img_three.png')",
       }
 
       
