@@ -21,7 +21,7 @@ const Logo = () => {
             <img src={logoThree} alt="logo3" />
         </figure>
         <figure>
-            <img src={logoThree} alt="logo4" />
+            <img src={logoFour} alt="logo4" />
         </figure>
        </div>
      </Container>
