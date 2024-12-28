@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { IoIosMenu } from "react-icons/io";
 // nav img import
-import logo from "../../assets/logo.png"
+import logo from "../../assets/brandLogo.png"
 import Container from '../Container/Container'
 import Button from '../Button/Button'
 

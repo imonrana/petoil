@@ -1,8 +1,8 @@
 import React from 'react'
-import logoOne from "../../assets/logo1.png"
-import logoTwo from "../../assets/logo2.png"
-import logoThree from "../../assets/logo3.png"
-import logoFour from "../../assets/logo4.png"
+import logoOne from "../../assets/Logo1.png"
+import logoTwo from "../../assets/Logo2.png"
+import logoThree from "../../assets/Logo3.png"
+import logoFour from "../../assets/Logo4.png"
 import Container from '../Container/Container'
 
 

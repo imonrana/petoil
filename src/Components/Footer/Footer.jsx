@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "../Container/Container";
-import footerLogo from "../../assets/logo.png";
-import cert1 from "../../assets/cert1.png"
-import cert2 from "../../assets/cert2.png"
+import footerLogo from "../../assets/brandLogo.png";
+import cert1 from "../../assets/Cert1.png"
+import cert2 from "../../assets/Cert2.png"
 
 import { IoMailUnreadOutline } from "react-icons/io5";
 import { FaPhoneVolume } from "react-icons/fa6";
